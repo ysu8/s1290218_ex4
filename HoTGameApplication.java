@@ -12,5 +12,10 @@ class HoTGameApplication{
             }
         }
         System.out.println("Heads: " + (3-coftails) + ", Tails: " + coftails);
+	if(coftails < 2){
+	    System.out.printf("You won!\n");
+	} else {
+	    System.out.printf("You lost!\n");
+	}
     }
 }
