@@ -1,5 +1,10 @@
+import java.util.Scanner;
 class HoTGameApplication{
     public static void main(String[] args){
+	System.out.printf("Who are you?\n> ");
+	Scanner sc = new Scanner(System.in);
+	String str = sc.next();
+	System.out.printf("Hello, %s!\n", str);
         System.out.println("Tossing a coin...");
         int coftails = 0;
         for(int i = 1; i <= 3; i++){
